@@ -56,38 +56,6 @@ The Django backend serves the OCR model through an API endpoint:
 
 A client script sends a POST request to the API endpoint with an image file and prints the predicted text.
 
-## Installation
-
-To set up the project, follow these steps:
-
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/AbdoEissa21/ocr-text-recognition.git
-    cd ocr-text-recognition
-    ```
-
-2. **Create and activate a virtual environment**:
-    ```sh
-    python -m venv venv
-    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
-    ```
-
-3. **Install the required packages**:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-4. **Navigate to the Django project directory**:
-    ```sh
-    cd myproject
-    ```
-
-5. **Run database migrations and start the Django server**:
-    ```sh
-    python manage.py migrate
-    python manage.py runserver
-    ```
-
 ## Usage
 
 1. **Data Preprocessing**:
